@@ -1,0 +1,17 @@
+1.
+factorial <- function(x){
+y <- 1
+for(i in 1:x){
+y <-y*((1:x)[i])
+}
+return(y)
+}
+
+factorial(12)
+
+2.  seq(20, 50, by = 5)
+
+3.
+f <- function(a,b,c){
+ return (a*x^2 + b*x + c)
+}
