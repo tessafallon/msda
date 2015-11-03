@@ -14,13 +14,16 @@ factorial(12)
 
 
 3.
+
+**FULL DISCLOSURE:  I updated this earlier this afternoon, and when reading the board comments realized that my problem was spacing
+not the function itself. The earlier version is the commit previous to this; syntax is the same, spacing is different.**
 f1 <- function(a,b,c){
-return (-b - sqrt(b^2 - 4ac) / 2a)
+return(-b-sqrt(b^2-4*a*c)/2*a)
 }
 
 
 f2 <- function(a,b,c){
-return (-b + sqrt(b^2 - 4ac) / 2a)
+return(-b+ qrt(b^2-4*a*c)/2*a)
 }
 
 f1(1,2,3)
