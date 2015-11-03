@@ -1,0 +1,27 @@
+1.
+factorial <- function(x){
+y <- 1
+for(i in 1:x){
+y <-y*((1:x)[i])
+}
+return(y)
+}
+
+factorial(12)
+
+
+2.  seq(20, 50, by = 5)
+
+
+3.
+f1 <- function(a,b,c){
+return (-b - sqrt(b^2 - 4ac) / 2a)
+}
+
+
+f2 <- function(a,b,c){
+return (-b + sqrt(b^2 - 4ac) / 2a)
+}
+
+f1(1,2,3)
+f2(1,2,3)
