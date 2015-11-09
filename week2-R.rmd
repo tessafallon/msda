@@ -24,6 +24,6 @@ factorial(n)/(factorial(n-r)*factorial(r))
 
 **code end**
 
-**test**
+**test**  
 mychoose(5,3)  
 *should return output 10*
