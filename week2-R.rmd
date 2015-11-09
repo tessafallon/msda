@@ -1,24 +1,38 @@
-###Created with RStudio Version 0.99.486
+#### "Choose" function for R
+####Created with RStudio Version 0.99.486
 ####No additional packages required
-###Author: Tessa Fallon, tessafallon at gmail dot com
+###A$uthor: Tessa Fallon, tessafallon at gmail dot com
 
 
 *"myfactorial" and "mychoose" functions replicate the functions of built-in factorial and choose functions*
 
 **code start**
+
 myfactorial <- function(x){
+
 y <- 1
+
 for(i in 1:x){
+
 y <-y*((1:x)[i])
-}
-return(y)
+
 }
 
-mychoose <- function(n,r){     f
-actorial(n)/(factorial(n-r)*factorial(r))
+return(y)
+
 }
+
+
+mychoose <- function(n,r){     
+
+factorial(n)/(factorial(n-r)*factorial(r))
+
+}
+
 **code end**
 
 **test**
+
 mychoose(5,3)
+
 *should return output 10*
