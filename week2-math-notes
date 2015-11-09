@@ -3,10 +3,13 @@
 a. score >= 9
 P(A) + P(B) >+ 9
 poss outcomes = 36
- sum >= 9   10/36
+ sum >= 9   
+
+ 10/36
 
 b.
-sum = 7 -> 6/36
+sum = 7 
+6/36
 
 4.
 all pieces: 12
@@ -18,8 +21,9 @@ c. 4/12 * 2/12
 
 
 3. 
-a.ace or king
-8/52
+a.
+ace or king
+1/52 + 1/52 - (1/52 * 1/52) = 0.038
  
 b.red card, black card
 1 (it must be red or black)
@@ -56,6 +60,7 @@ P(5)=9!/5!(9-5)*(.40^5)(1-.4)^9-5
 p heads 1/3
 p heads at least one - excludes all tails
 
+
 8.
 test1 = .95 right/pos
 test2 = .94 right/neg
@@ -85,3 +90,35 @@ e. probability of obtaining number of wins
 Poisson distribution
 p = e^20 * 20^20/20! = 0.08882344
 
+12.
+T hit 30% / 3 tries
+J hit 25% / 3 tries
+a. 
+.25 + .30 - (.25*.30)= 0.475
+
+b. P(A) * P(B)
+.70 * .75 = 0.525
+
+c. P (J and T)
+P(A) * P(B)
+.30*.25 = 0.075
+
+13.
+P(H) = .65
+flips = 50
+(using binomial diet calculator)
+
+P(H <= 25) = 0.0207
+
+14. draw 2 cards
+
+a. face cards: 12/36
+P 2 cards = face cards, no replacement
+P(A) * P(B|A)
+
+12/36 * 11/35 = 0.10...
+
+b.  2 hearts, no replacement
+8/36 * 7/35 = 0.044…
+
+15.  False, per "Gambler's fallacy."
