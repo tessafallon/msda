@@ -1,2 +1,13 @@
-n!/((n-r)!*r!)
+#n!/((n-r)!*r!)
 
+myfactorial <- function(x){
+y <- 1
+for(i in 1:x){
+y <-y*((1:x)[i])
+}
+return(y)
+}
+
+mychoose <- function(n,r){     f
+actorial(n)/(factorial(n-r)*factorial(r))
+}
