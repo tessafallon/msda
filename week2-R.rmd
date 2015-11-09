@@ -1,7 +1,7 @@
 #### "Choose" function for R
 ####Created with RStudio Version 0.99.486
 ####No additional packages required
-###A$uthor: Tessa Fallon, tessafallon at gmail dot com
+####Author: Tessa Fallon, tessafallon at gmail dot com
 
 
 *"myfactorial" and "mychoose" functions replicate the functions of built-in factorial and choose functions*
