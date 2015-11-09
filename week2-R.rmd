@@ -1,11 +1,11 @@
-#Created with RStudio Version 0.99.486
-#No additional packages required
-#Author: Tessa Fallon, tessafallon at gmail dot com
+###Created with RStudio Version 0.99.486
+####No additional packages required
+###Author: Tessa Fallon, tessafallon at gmail dot com
 
 
-#"myfactorial" and "mychoose" functions replicate the functions of built-in factorial and choose functions
+*"myfactorial" and "mychoose" functions replicate the functions of built-in factorial and choose functions*
 
-#code start
+**code start**
 myfactorial <- function(x){
 y <- 1
 for(i in 1:x){
@@ -17,8 +17,8 @@ return(y)
 mychoose <- function(n,r){     f
 actorial(n)/(factorial(n-r)*factorial(r))
 }
-#code end
+**code end**
 
-#test
+**test**
 mychoose(5,3)
-#should return output 10
+*should return output 10*
