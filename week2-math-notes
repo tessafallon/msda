@@ -60,6 +60,7 @@ p heads at least one - excludes all tails
 test1 = .95 right/pos
 test2 = .94 right/neg
 disease - 3% pos
+without knowing population
 
 pos test = 95%
 
@@ -73,13 +74,14 @@ P(A) * P(B/A)
 Rolls are independent; prob of getting a six is 1/6
 
 11.  
-win = 2 or 5
+win = 2 or 5 = 2/6
+(Using binomial distribution calculator provided by text)
 play 60 times
-a. P(w 5-10 incl)
-b. P(w >= 15)
-c. (P(w >= 40)
-d. most likely number of wins
-e. probability of braining number of wins
-
-12.
+a. P(w 5-10 incl) = 0.0037
+b. P(w >= 15) = 0.8826
+c. (P(w >= 40) = 0
+d. most likely number of wins = 60(.33)=19.8
+e. probability of obtaining number of wins
+Poisson distribution
+p = e^20 * 20^20/20! = 0.08882344
 
