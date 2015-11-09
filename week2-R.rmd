@@ -19,8 +19,9 @@ return(y)
 mychoose <- function(n,r){     
 factorial(n)/(factorial(n-r)*factorial(r))
 }
+
 **code end**
 
 **test**
-mychoose(5,3)
+mychoose(5,3)  
 *should return output 10*
